@@ -1,0 +1,21 @@
+# garbage dependencies that should not be uploaded
+node_modules/
+/.pnpm-store
+.env
+.env.local
+.env.production
+.env.development
+
+# Automatic build results
+.next/
+out/
+build/
+dist/
+
+# Log files and system junk
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.local
+
